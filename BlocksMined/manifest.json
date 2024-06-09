@@ -1,0 +1,53 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Blocks Mined",
+		"description": "Blocks Mined pack.\nCreated by Warden#1113.\nUPDATED FOR 1.20.80",
+		"uuid": "f3459b5e-9b66-45e1-adb9-7d1ac767e02d",
+		"version": [
+			1,
+			1,
+			0
+		],
+		"min_engine_version": [
+			1,
+			20,
+			80
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "e2fada77-8a9e-452c-a3da-9b0bca118e70",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "85883b17-e249-4734-ae2f-73fe406302e2",
+			"version": "1.11.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": [
+			"Warden#1113"
+		]
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		},
+		{
+			"description": "@minecraft/server-ui module dependency",
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}

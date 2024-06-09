@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Custom Chat Ranks [BETA]",
+		"description": "Warden's first ever chat ranks addon",
+		"uuid": "49966077-3977-4f4a-b404-9201a7261e7a",
+		"min_engine_version": [1, 20, 80],
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "Behavior Pack Module",
+			"type": "data",
+			"uuid": "de1e3ead-c86b-49de-b17a-e3abca321677",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Gametest Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "31df936d-b604-454c-b2f2-88522a97300b",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0-beta"
+		}
+  ]
+}
